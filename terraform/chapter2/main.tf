@@ -18,8 +18,6 @@ resource "aws_launch_configuration" "example" {
     lifecycle {
         create_before_destroy = true
     }
-
-
 }
 
 resource "aws_security_group" "instance" {
